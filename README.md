@@ -8,6 +8,7 @@
 - vscode
 - install tree,
 - You can add shell completion of the Ansible command line utilities by installing an optional dependency called argcomplete. argcomplete supports bash, and has limited support for zsh and tcsh.
+- role that creates a project directory lints,cfgs, etc, for ansible itself
 
 ## Installation
 first edit from local to be pushed to remote
