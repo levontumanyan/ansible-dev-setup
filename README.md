@@ -2,6 +2,7 @@
 
 - python3 is already installed
 - pip for python? ansible
+- install git
 - vscode
 - 
 
