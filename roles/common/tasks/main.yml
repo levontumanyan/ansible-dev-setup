@@ -1,3 +1,28 @@
 ---
 # tasks file for common
 
+
+- name: Distribution
+  debug: msg="{{ ansible_distribution }}"
+
+# - name: Install apache
+#   apt: 
+#     name: {{ item }} 
+#     state: latest
+#   with_items:
+#     - apache2
+#   when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
+
+- name: Install the latest version of Apache and MariaDB
+  tags: always
+  ansible.builtin.package:
+    name:
+      - vscode
+    state: latest
+
+
+- name: add vscode package
+  tags: [ never, uninstall]
+  ansible.builtin.package:
+    name: "vscode"
+    state: absent
