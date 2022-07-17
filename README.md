@@ -4,7 +4,7 @@
 - pip for python? ansible
 - install git
 - vscode
-- 
+- setup virtual env, and create default envs for python
 
 ## Installation
 
