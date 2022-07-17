@@ -2,9 +2,10 @@
 
 - python3 is already installed
 - pip for python? ansible
-- install git
+- install git, setup git remote, username, etc
+- setup virtual env, and create default envs for python - sudo apt-get install python3.10-venv
 - vscode
-- setup virtual env, and create default envs for python
+- install tree,
 
 ## Installation
 
